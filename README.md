@@ -2,7 +2,7 @@
 
 This repo is the PyTorch implementation for the paper:
 
-**["Style Content Decomposition-based Data Augmentation for Domain Generalizable Medical Image Segmentation"](https://arxiv.org/abs/2502.20619)** 
+**["Style Content Decomposition-based Data Augmentation for Domain Generalizable Medical Image Segmentation"](https://openreview.net/forum?id=bS6EUt0nWl)** 
 
 ## Usage
 
@@ -42,11 +42,11 @@ python eval.py
 ## Citation
 If you find this project useful, please consider citing:
 ```
-@article{shen2025style,
-  title={Style Content Decomposition-based Data Augmentation for Domain Generalizable Medical Image Segmentation},
-  author={Shen, Zhiqiang and Cao, Peng and Yang, Jinzhu and Zaiane, Osmar R and Chen, Zhaolin},
-  journal={arXiv preprint arXiv:2502.20619},
-  year={2025}
+@inproceedings{shen2026style,
+title={Style Content Decomposition-based Data Augmentation for Domain Generalizable Medical Image Segmentation},
+author={Zhiqiang Shen and Peng Cao and Jinzhu Yang and Osmar Zaiane and Zhaolin Chen},
+booktitle={Medical Imaging with Deep Learning},
+year={2026}
 }
 ```
 
