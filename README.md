@@ -2,7 +2,7 @@
 
 This repo is the PyTorch implementation for the paper:
 
-**["Style Content Decomposition-based Data Augmentation for Domain Generalizable Medical Image Segmentation"](https://openreview.net/forum?id=bS6EUt0nWl)** 
+**["Style Content Decomposition-based Data Augmentation for Domain Generalizable Medical Image Segmentation"](https://proceedings.mlr.press/v315/shen26a.html)** 
 
 ## Usage
 
@@ -18,15 +18,15 @@ torchvision == 0.12.0
 
 ### 1. Data Preparation
 #### 1.1. Download data
-The dataset can be downloaded in following links:
+The datasets can be downloaded from the following links:
 * MSCMR Dataset - [Link](https://zmiclab.github.io/zxh/0/mscmrseg19/index.html) 
 * Fundus Dataset - [Link](https://zenodo.org/records/8009107)
 
-PS: *Please cite the papers of original dataset when using the data in your publications.*
+PS: *Please cite the original dataset papers when using these datasets in your publications.*
 
 
 #### 1.2. Split Dataset
-Following the list files (within the "*data*" folders) to split the datasets
+Follow the list files (within the "*data*" folders) to split the datasets
 
 ### 2. Training
 ```angular2html
@@ -43,10 +43,13 @@ python eval.py
 If you find this project useful, please consider citing:
 ```
 @inproceedings{shen2026style,
-title={Style Content Decomposition-based Data Augmentation for Domain Generalizable Medical Image Segmentation},
-author={Zhiqiang Shen and Peng Cao and Jinzhu Yang and Osmar Zaiane and Zhaolin Chen},
-booktitle={Medical Imaging with Deep Learning},
-year={2026}
+  title = {Style Content Decomposition-based Data Augmentation for Domain Generalizable Medical Image Segmentation},
+  author = {Shen, Zhiqiang and Cao, Peng and Yang, Jinzhu and Zaiane, Osmar R. and Chen, Zhaolin},
+  booktitle = {Proceedings of The 9th International Conference on Medical Imaging with Deep Learning},
+  volume = {315},
+  pages = {21--35},
+  year = {2026},
+  publisher = {PMLR}
 }
 ```
 
